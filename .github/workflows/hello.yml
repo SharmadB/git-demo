@@ -1,20 +1,4 @@
-name: My First Action
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  hello:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Say Hello
-        run: echo "Hello from GitHub Actions!"
-
-      - name: Show files
-        run: ls -lname: CI Pipeline
+name: CI Pipeline
 
 on:
   push:
